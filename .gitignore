@@ -1,0 +1,71 @@
+# ---------------------------------------
+# Python virtual environment
+# ---------------------------------------
+venv/
+ENV/
+env/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized DLL files
+*.so
+*.dll
+
+# ---------------------------------------
+# OS / Editor Files
+# ---------------------------------------
+Thumbs.db
+.DS_Store
+*.swp
+*.bak
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# ---------------------------------------
+# Logs and temp files
+# ---------------------------------------
+*.log
+logs/
+tmp/
+temp/
+
+# ---------------------------------------
+# Model files (avoid pushing heavy files)
+# ---------------------------------------
+*.h5
+*.hdf5
+*.sav
+*.pickle
+*.pkl
+
+# ---------------------------------------
+# Database files (optional)
+# If you want to upload DB, remove this
+# ---------------------------------------
+*.db
+
+# ---------------------------------------
+# Flask specific
+# ---------------------------------------
+instance/
+*.pid
+
+# ---------------------------------------
+# Environment variables
+# ---------------------------------------
+.env
+*.env
+
+# ---------------------------------------
+# Uploads folder (optional: safe to ignore)
+# Your project has static/uploads so avoid pushing images
+# ---------------------------------------
+static/uploads/

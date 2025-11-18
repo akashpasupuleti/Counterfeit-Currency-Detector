@@ -1,0 +1,58 @@
+1. Importing the packages
+2. Exploring the dataset 
+	- Fake Currency Data
+3. Image processing
+	- Using LBP Feature
+		- function for gabor feature 
+			- getGaborKernel
+			- filter2D
+			- calculate the histogram
+		- function lbp gabor features
+			- calculate the lbp of an image
+			- converts to histogram
+		- function low feature extraction
+	- using Image Data Generator 
+		- Re-scaling the Image
+		- Shear Transformation
+		- Zooming the Image
+		- Horizontal Flip 
+		- Reshaping the Image 
+	- Feature Extraction CNN and HOG
+		- Reading the image
+		- Resizing the image
+		- Convert the Color
+		- Appending the image and labels
+		- Conversion to numpy value
+		- Label Encoding 
+4. Building the model 
+
+	
+	- LBP
+		- KNN
+		- SVM
+		- Voting Classifier (DT + RF)
+	- CNN
+		- KNN
+		- SVM
+		- Voting Classifier (DT + RF)
+
+	- Xception
+		- KNN
+		- SVM
+		- Voting Classifier (DT + RF)
+
+5. Training the model
+6. Building the model 
+
+
+Flask Framework
+----------------
+
+ 
+7. Flask Framework with Sqlite for signup and signin
+8. Importing the packages
+9. User Upload an image for analysis
+10. The given input is preprocessed 
+11. The trained model is used for predicting the result
+12. Final Outcome is display 
+
