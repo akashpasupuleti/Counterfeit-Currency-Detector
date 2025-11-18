@@ -216,14 +216,6 @@ You may add screenshots by placing them inside:
 
 static/screenshots/
 
-
-
-arduino
-
-Copy code
-
-
-
 and embedding them like:
 
 
