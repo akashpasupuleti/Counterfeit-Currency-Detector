@@ -231,7 +231,7 @@ and embedding them like:
 !\[Screenshot](static/screenshots/home.png)
 
 
-
+---
 
 
 🚀 Future Enhancements
